@@ -23,8 +23,7 @@ valid_entries = data.select do |info|
   char_1 = info[:password][position_1]
   char_2 = info[:password][position_2]
 
-  (char_1 == info[:required_character] || char_2 == info[:required_character]) && 
-  (char_1 != char_2)
+  (char_1 == info[:required_character]) ^ (char_2 == info[:required_character])
 end
 
 p valid_entries.count
