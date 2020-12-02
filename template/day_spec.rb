@@ -11,6 +11,5 @@ describe "DayX" do
   let(:parsed_input) { parse_input(test_input) }
 
   it "should ..." do
-    
   end
 end

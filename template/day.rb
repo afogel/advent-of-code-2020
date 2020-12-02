@@ -1,3 +1,5 @@
+## BORROWED from http://github.com/mikelikesbikes with modifications
+
 def read_lines(filename = File.expand_path("input.txt", __dir__))
   File.readlines(filename)
 end
