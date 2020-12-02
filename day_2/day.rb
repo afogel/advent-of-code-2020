@@ -6,7 +6,7 @@ data = input.map do |row|
     min: extracted_info[0].to_i,
     max: extracted_info[1].to_i,
     required_character: extracted_info[2],
-    password: extracted_info[3] 
+    password: extracted_info[3]
   }
 end
 
