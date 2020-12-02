@@ -18,7 +18,6 @@ end
 p valid_entries.count
 
 valid_entries = data.select do |info|
-  info[:required_character]
   position_1 = info[:min] - 1
   position_2 = info[:max] - 1
   char_1 = info[:password][position_1]
@@ -29,4 +28,3 @@ valid_entries = data.select do |info|
 end
 
 p valid_entries.count
-
